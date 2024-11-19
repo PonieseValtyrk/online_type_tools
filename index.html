@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>字体设计工具</title>
+  <link rel="stylesheet" href="shared/shared.css">
+</head>
+<body>
+  <div class="container">
+    <div id="glyph-window">
+      <h2>制作字形窗口</h2>
+      <canvas id="glyphCanvas"></canvas>
+    </div>
+
+    <div id="character-window">
+      <h2>选择字符窗口</h2>
+      <div id="characterScrollContainer">
+        <canvas id="characterCanvas"></canvas>
+      </div>
+    </div>
+
+    <div id="preview-window">
+      <h2>打字预览窗口</h2>
+      <canvas id="previewCanvas"></canvas>
+    </div>
+  </div>
+
+  <script src="shared/shared.js"></script>
+  <script src="glyph/glyph.js"></script>
+  <script src="character/character.js"></script>
+  <script src="preview/preview.js"></script>
+</body>
+</html>
